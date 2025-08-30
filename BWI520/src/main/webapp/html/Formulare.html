@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="./RegAppl.jsp" method="get">
+	Farbe: <input type="color" name="color" value="" /><br>
+	Datum: <input type="date" name="date" value="" /><br>
+	<select name="veranstaltung" size="5" multiple>
+		<option value="BWI110">Wirtschaftsmathematik</option>
+		<option value="BWI230">Programmieren 2</option>
+		<option value="BWI352" disabled>Datenbanken</option>
+		<option value="BWI420" selected>Webanwendungen</option>
+		<option value="BWI520">Praktikum Anwendungssysteme</option>
+	</select>
+	<br><br>
+	<label><input type="radio" name="gender" value="w" /> weiblich</label><br>
+	<label><input type="radio" name="gender" value="m" /> m&auml;nnlich</label><br>
+	<label><input type="radio" name="gender" value="u" checked disabled /> unbekannt</label><br>
+	<br>
+	<label><input type="checkbox" name="cc" value="visa" checked /> Visacard</label><br>
+	<label><input type="checkbox" name="cc" value="master" checked/> Mastercard</label><br>
+	<label><input type="checkbox" name="cc" value="amex" /> American Express</label><br>
+	<label><input type="checkbox" name="cc" value="test" disabled /> Testcard</label><br>
+
+	<input type="submit" name="btnGo" value="Abschicken" />
+
+
+</form>
+<br><br>
+<!-- Anmeldeformular mit Nickname (userid), Passwort (password)
+Button btnLogin (Anmelden)
+ -->
+<form action="./RegAppl.jsp" method="get">
+	<table>
+		<tr>
+			<td><label for="userid">Nickname: </label></td>
+			<td><input id="userid" type="text" name="userid" value="" /></td>
+		</tr>
+		<tr>
+			<td><label for="password">Passwort: </label></td>
+			<td><input id="password" type="password" name="password" value="" /></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><input type="submit" name="btnLogin" value="Abmelden" /></td>
+		</tr>
+	</table>
+</form>
+<br>
+<p>===========================================</p>
+<br>
+<form action="../jsp/RegAppl.jsp" method="get" >
+	<label>Feld 1: <input id="feld1" type="text" name="feld1" value="Text?" 
+				size="16" maxlength="8" required
+			/></label>
+	<br>
+	<label>Feld 2: <input type="text" name="feld2" value="25" 
+				readonly /></label>
+	<br>
+	<label>Passwort-Feld:
+		<input type="password" name="feld3" value="xyz" /></label>
+	<br>
+	<label>Feld 4: <input type="text" name="feld4" value="" 
+				placeholder="Text?" /></label>
+	<br><label for="feld1">und wieder hoch</label>
+	<br>
+	<input type="submit" name="btnSend" value="abschicken" />
+	<input type="reset" name="btnReset" value="Reset" />
+	<input type="button" name="btnClick" value="klick mich" />
+	
+
+
+</form>
+</body>
+</html>
