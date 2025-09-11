@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/* Grundlayout */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+/* Hauptüberschrift */
+h1 {
+  color: #222;
+  margin-bottom: 20px;
+}
+
+/* Unterüberschrift */
+h2 {
+  color: #444;
+  margin: 30px 0 15px 0;
+}
+
+/* Beschreibungstexte */
+p {
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Tabelle */
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+table th {
+  background-color: #0078D7;
+  color: white;
+  padding: 12px;
+  font-size: 1.1em;
+}
+
+table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+/* Summenzeile */
+table tr:last-child td {
+  background-color: #f1f9ff;
+  font-weight: bold;
+}
+
+/* Link zurück zum Shop */
+a {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 10px 16px;
+  background-color: #0078D7;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #005a9e;
+}
