@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-
+/* Grundlayout */
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
@@ -15,54 +15,35 @@ h1 {
   margin-bottom: 20px;
 }
 
-/* Unterüberschrift */
-h2 {
-  color: #444;
-  margin: 30px 0 15px 0;
-}
-
 /* Beschreibungstexte */
 p {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   line-height: 1.6;
-}
-
-/* Tabelle */
-table {
-  margin: 0 auto;
-  border-collapse: collapse;
-  background: white;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-}
-
-table th {
-  background-color: #0078D7;
-  color: white;
-  padding: 12px;
   font-size: 1.1em;
 }
 
-table td {
-  border: 1px solid #ddd;
-  padding: 12px;
-  text-align: center;
-}
-
-/* Summenzeile */
-table tr:last-child td {
-  background-color: #f1f9ff;
-  font-weight: bold;
+/* Trennlinie */
+hr {
+  margin: 30px auto;
+  width: 60%;
+  border: none;
+  border-top: 1px solid #ddd;
 }
 
 /* Link zurück zum Shop */
 a {
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 20px;
   padding: 10px 16px;
   background-color: #0078D7;
   color: white;
   border-radius: 4px;
   text-decoration: none;
+}
+
+a img {
+  display: block;
+  margin: 0 auto 8px auto;
 }
 
 a:hover {
