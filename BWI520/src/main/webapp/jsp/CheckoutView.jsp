@@ -46,6 +46,6 @@
 
   <br>
 
-  <a href="OnlineShopView.html">🔙 Zurück zum Shop</a>
+  <a href="ShopView.jsp">🔙 Zurück zum Shop</a>
 </body>
 </html>

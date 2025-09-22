@@ -23,14 +23,14 @@
 
     
     <td>
-      <form action="Registrieren.html" method="get">
+      <form action="RegisterView.jsp" method="get">
         <input type="submit" value="Registrieren" />
       </form>
     </td>
 
     
     <td>
-      <a href="warenkorb.html">
+      <a href="WarenkorbView.jsp">
         <img src="img/warenkorb.png" alt="Warenkorb" title="Zum Warenkorb" width="50" /><br>
         Zum Warenkorb
       </a>
@@ -42,16 +42,6 @@
 <h1>Willkommen in unserem Online Shop</h1>
 <p>Hier finden Sie eine kleine Auswahl unserer Produkte. 
 Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p>
-
-<hr>
-
-
-<h2>Suche nach Produkten</h2>
-<form action="produkte.html" method="get">
-  <label for="search">Suchbegriff:</label>
-  <input type="text" id="search" name="q" placeholder="Produktname..." />
-  <input type="submit" value="Suchen" />
-</form>
 
 <hr>
 
@@ -74,7 +64,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 899,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Laptop Pro 15" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -95,7 +85,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 599,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Smartphone X" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -116,7 +106,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 129,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Kopfhörer SoundMax" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -137,7 +127,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 349,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Tablet Air 10" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -159,7 +149,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 1.299,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Gaming PC Ultra" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -181,7 +171,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 199,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Smartwatch Fit 2" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -202,7 +192,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 79,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Bluetooth Lautsprecher Boom" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -223,7 +213,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 399,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Monitor 27 UHD" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -244,7 +234,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 139,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Externe SSD 1TB" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -266,7 +256,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 189,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Drucker LaserJet Pro" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -288,7 +278,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 259,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Kompaktkamera ZoomX" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -310,7 +300,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 129,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Router SpeedBox" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -331,7 +321,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 499,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Drohne SkyView" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -352,7 +342,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 119,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="E-Book Reader Light" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -373,7 +363,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 89,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Webcam HD 1080p" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -394,7 +384,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 59,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Gaming Maus Pro" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -415,7 +405,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 99,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Gaming Tastatur RGB" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -436,7 +426,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 79,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Externe Festplatte 2TB" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -458,7 +448,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 549,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Smart-TV 50 Zoll" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -479,7 +469,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 49,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Powerbank 20000 mAh" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -500,7 +490,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 89,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Kopfhörer InEar Wireless" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />
@@ -522,7 +512,7 @@ Wählen Sie einfach aus und legen Sie Ihre Lieblingsartikel in den Warenkorb.</p
       <p><b>Preis: 79,00 &euro;</b></p>
     </td>
     <td>
-      <form action="warenkorb.html" method="get">
+      <form action="WarenkorbView.jsp" method="get">
         <input type="hidden" name="produkt" value="Smart Home Kamera" />
         <label>Menge: <input type="number" name="menge" value="1" min="1" /></label><br><br>
         <input type="submit" value="In den Warenkorb" />

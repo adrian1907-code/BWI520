@@ -45,9 +45,9 @@
 
   <br>
 
-  <form action="checkout.html" method="post">
+  <form action="CheckoutView.jsp" method="post">
     <input type="submit" value="Zur Kasse gehen" />
-    <input type="button" value="Weiter einkaufen" onclick="window.location.href='OnlineShopView.html';" />
+    <input type="button" value="Weiter einkaufen" onclick="window.location.href='ShopView.jsp';" />
   </form>
 
 </body>

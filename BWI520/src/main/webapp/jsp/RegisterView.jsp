@@ -12,7 +12,7 @@
 <h1>Registrierung</h1>
 <p>Bitte füllen Sie die folgenden Felder aus, um ein Kundenkonto zu erstellen.</p>
 
-<form action="registrieren_success.html" method="post">
+<form action="RegisterAppl.jsp" method="post">
   <table>
     <tr>
       <td>Vorname:</td>
@@ -68,7 +68,7 @@
 </form>
 
 <p>
-  <a href="OnlineShopView.html">Zurück zum Shop</a>
+  <a href="ShopView.jsp">Zurück zum Shop</a>
 </p>
 
 </body>
